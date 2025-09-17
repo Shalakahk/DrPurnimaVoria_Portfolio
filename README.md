@@ -222,4 +222,3 @@ This project is proprietary and confidential. All rights reserved to Dr. Purnima
 ---
 
 *Built with ❤️ for strengthening Indo-US ties and global leadership*
-
