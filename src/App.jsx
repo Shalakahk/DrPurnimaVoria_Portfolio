@@ -1241,6 +1241,32 @@ function App() {
                 ))}
               </div>
             </div>
+
+            <div>
+              <h3 className="text-3xl font-display font-bold text-navy mb-8 text-center">Testimonials</h3>
+              <div className="max-w-4xl mx-auto">
+                <div className="relative p-8 bg-gradient-to-br from-gold/10 to-navy/5 rounded-2xl elegant-shadow-lg border-l-4 border-gold">
+                  <div className="absolute top-4 left-4">
+                    <Star className="w-8 h-8 text-gold" />
+                  </div>
+                  <blockquote className="text-center">
+                    <p className="text-2xl font-display italic text-navy mb-6 leading-relaxed">
+                      "Dr. Voria's vision and leadership have been instrumental in strengthening business relationships between our nations and creating opportunities for entrepreneurs worldwide."
+                    </p>
+                    <footer className="flex items-center justify-center space-x-2">
+                      <div className="w-12 h-0.5 bg-gold"></div>
+                      <cite className="text-lg font-body font-semibold text-gold not-italic">
+                        International Business Leader Magazine
+                      </cite>
+                      <div className="w-12 h-0.5 bg-gold"></div>
+                    </footer>
+                  </blockquote>
+                  <div className="absolute bottom-4 right-4">
+                    <Trophy className="w-8 h-8 text-gold/30" />
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
