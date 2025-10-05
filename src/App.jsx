@@ -355,6 +355,35 @@ function App() {
       title: 'Featured in Divapreneur Magazine',
       description: 'Dr. Purnima Voria featured in Divapreneur Magazine',
       category: 'Professional'
+    },
+    // Indian Conglomerates
+    {
+      id: 25,
+      src: drVoriaPhoto1,
+      title: 'With Mrs. Nita Mukesh Ambani',
+      description: 'Dr. Purnima Voria with Mrs. Nita Mukesh Ambani for presenting India to the world in the greatest event of his decade at the Lincoln center',
+      category: 'Indian Conglomerates'
+    },
+    {
+      id: 26,
+      src: drVoriaPhoto2,
+      title: 'With Aditya Vikram Birla',
+      description: 'Dr. Purnima Voria with Aditya Vikram Birla, an Indian industrialist and philanthropist',
+      category: 'Indian Conglomerates'
+    },
+    {
+      id: 27,
+      src: drVoriaPhoto3,
+      title: 'With Natarajan Chandrashekar',
+      description: 'Dr. Purnima Voria with Natarajan Chandrashekar, an Indian businessman, and the chairman of Tata and Sons and Tata Group',
+      category: 'Indian Conglomerates'
+    },
+    {
+      id: 28,
+      src: drVoriaEvent1,
+      title: 'With Mr. Arvind Krishna',
+      description: 'Dr. Purnima Voria with Mr. Arvind Krishna, an Indian American executive and CEO of IBM',
+      category: 'Indian Conglomerates'
     }
   ]
 
@@ -1004,7 +1033,7 @@ function App() {
 
           {/* Category Filter */}
           <div className="flex flex-wrap justify-center gap-4 mb-12">
-            {['All', 'United States', 'India', 'United Nations', 'World Leaders', 'Professional'].map((category) => (
+            {['All', 'United States', 'India', 'United Nations', 'World Leaders', 'Professional', 'Indian Conglomerates'].map((category) => (
               <button
                 key={category}
                 className="px-6 py-3 rounded-full bg-white border-2 border-navy/20 text-navy hover:bg-navy hover:text-white transition-all duration-300 font-body font-medium elegant-shadow hover-lift"
