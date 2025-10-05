@@ -183,201 +183,178 @@ function App() {
   ]
 
   const galleryImages = [
+    // Photos of the United States
     {
       id: 1,
-      src: drVoriaPhoto,
-      title: 'Dr. Purnima Voria - Professional Portrait',
-      description: 'Official portrait of Dr. Purnima Voria, Founder & CEO of National US India Chamber of Commerce',
-      category: 'Professional'
+      src: drVoriaOfficePresident,
+      title: 'Office of the President of the United States',
+      description: 'Dr. Purnima Voria in front of the Office of the President of the United States',
+      category: 'United States'
     },
     {
       id: 2,
-      src: drVoriaAboutPhoto,
-      title: 'NUICC Soft Launch Event',
-      description: 'Dr. Voria at the National US India Chamber of Commerce soft launch event with US and India flags',
-      category: 'Events'
+      src: drVoriaBiden,
+      title: 'Discussion with President Biden',
+      description: 'Dr. Purnima Voria discussions on Small U.S. Businesses with His Excellency, U.S. President, Joe Biden, in the East Wing of White House',
+      category: 'United States'
     },
     {
       id: 3,
-      src: drVoriaPortfolio,
-      title: 'Government Service Portrait',
-      description: 'Dr. Voria in traditional attire during her service to multiple US administrations',
-      category: 'Government Service'
+      src: drVoriaKamal,
+      title: 'With Vice President Kamala Harris',
+      description: 'Dr. Purnima Voria with Her Excellency, Vice President of the United States, Kamala Harris',
+      category: 'United States'
     },
     {
       id: 4,
-      src: drVoriaBiden,
-      title: 'Meeting with President Biden',
-      description: 'Dr. Voria in official meeting with President Joe Biden at the White House',
-      category: 'Government Service'
+      src: drVoriaWithGroup,
+      title: 'White House VIP Visit',
+      description: 'Dr. Purnima Voria with V.I.Ps at the White House visit of His Excellency, Prime Minister of India Shri. Narendra Modi\'s State visit with Hon. Joe Biden',
+      category: 'United States'
     },
     {
       id: 5,
-      src: drVoriaModi,
-      title: 'With Prime Minister Modi',
-      description: 'Dr. Voria meeting with Indian Prime Minister Narendra Modi during official visit',
-      category: 'Diplomatic'
+      src: drVoriaModiInAmerica,
+      title: 'Modi State Visit',
+      description: 'Dr. Purnima Voria at the White House visit of His Excellency, Prime Minister of India, Shri. Narendra Modi\'s State visit with Hon. President Trump in Washington D.C.',
+      category: 'United States'
     },
     {
       id: 6,
-      src: drVoriaModiInAmerica,
-      title: 'Modi in America Event',
-      description: 'Dr. Voria at the historic Modi in America event promoting US-India relations',
-      category: 'Diplomatic'
+      src: drVoriaSentLisaWellman,
+      title: 'Capitol Hill Discussions',
+      description: 'Dr. Purnima Voria goes to the Capital to discuss Indo-U.S. Relations and Trade Investments with the U.S. Senators and Congressmen',
+      category: 'United States'
     },
     {
       id: 7,
-      src: drVoriaNancyPelosi,
-      title: 'With Speaker Nancy Pelosi',
-      description: 'Dr. Voria meeting with former House Speaker Nancy Pelosi on policy matters',
-      category: 'Government Service'
+      src: drVoriaWHAsianAmericans,
+      title: 'Asian Americans Initiative',
+      description: 'Dr. Purnima Voria participates in the White House Initiative on Asian Americans and Pacific Islanders',
+      category: 'United States'
     },
     {
       id: 8,
-      src: drVoriaWhitehouseSolo,
-      title: 'White House Visit',
-      description: 'Dr. Voria at the White House during official government business',
-      category: 'Government Service'
+      src: drVoriaSMBWH,
+      title: 'Small Business White House',
+      description: 'Dr. Purnima Voria in the East Wing of the White House with the Hon. President Biden for Small Business Boom and Grant announcement',
+      category: 'United States'
     },
+    // India Photos
     {
       id: 9,
-      src: drVoriaSMBWH,
-      title: 'Small Business White House Event',
-      description: 'Dr. Voria at White House small business event as National Advisor to MBDA',
-      category: 'Government Service'
+      src: drVoriaModi,
+      title: 'With Prime Minister Modi',
+      description: 'Dr. Purnima Voria with His Excellency, Hon. Prime Minister of India, Shri. Narendra Modi at the reception hosted by Indian Embassy in Washington D.C',
+      category: 'India'
     },
     {
       id: 10,
-      src: drVoriaWHAsianAmericans,
-      title: 'Asian Americans White House Event',
-      description: 'Dr. Voria at White House Asian Americans and Pacific Islanders event',
-      category: 'Community'
+      src: drVoriaHonRSingh,
+      title: 'With Vice President Shekhawat',
+      description: 'Dr. Purnima Voria with H.E. Vice President of India Shri. Bhairon Singh Shekhawat, who encouraged the launch of the National U.S.-India Chamber of Commerce to promote Indo-U.S. Relations and Trade Investments',
+      category: 'India'
     },
     {
       id: 11,
-      src: drVoriaOfficePresident,
-      title: 'Presidential Office Meeting',
-      description: 'Dr. Voria in official meeting at the Office of the President',
-      category: 'Government Service'
+      src: drVoriaKeynoteEmbassy,
+      title: 'Global Entrepreneurship Summit',
+      description: 'Dr. Purnima Voria was invited by the U.S. State Department to join Ivanka Trump at the Global Entrepreneurship Summit (GES) in Hyderabad, India',
+      category: 'India'
     },
     {
       id: 12,
-      src: drVoriaKeynoteEmbassy,
-      title: 'Keynote at Indian Embassy',
-      description: 'Dr. Voria delivering keynote address at the Indian Embassy',
-      category: 'Speaking'
+      src: drVoriaHonRSingh2,
+      title: 'With Speaker Om Birla',
+      description: 'Dr. Purnima Voria with India Speaker of Lok Sabha, Hon. Om Birla',
+      category: 'India'
     },
     {
       id: 13,
-      src: drVoriaAmbSupriya,
-      title: 'With Ambassador Supriya',
-      description: 'Dr. Voria meeting with Ambassador Supriya on diplomatic matters',
-      category: 'Diplomatic'
+      src: drVoriaDisit,
+      title: 'With Finance Minister Sitharaman',
+      description: 'Dr. Purnima Voria presented her book to Her Excellency, Minister of Finance and Minister of Corporate Affairs of the Government of India, Smt. Nirmala Sitharaman',
+      category: 'India'
     },
     {
       id: 14,
       src: drVoriaAmbKwatra,
       title: 'With Ambassador Kwatra',
-      description: 'Dr. Voria in diplomatic meeting with Ambassador Kwatra',
-      category: 'Diplomatic'
+      description: 'Dr. Purnima Voria presenting her book on India and Rajasthan to His Excellency, Vinay Mohan Kwatra (India\'s Ambassador to U.S. in Washington D.C)',
+      category: 'India'
     },
+    // United Nations
     {
       id: 15,
-      src: drVoriaHonRSingh,
-      title: 'With Hon. R. Singh',
-      description: 'Dr. Voria meeting with Honorable R. Singh on policy initiatives',
-      category: 'Government Service'
+      src: drVoriaAfrica,
+      title: 'UN SDG-16 Award',
+      description: 'Dr. Purnima Voria received SDG-16 award – Peace, Justice and Strong Institution at the United Nations',
+      category: 'United Nations'
     },
     {
       id: 16,
-      src: drVoriaHonRSingh2,
-      title: 'Policy Discussion with Hon. R. Singh',
-      description: 'Dr. Voria in continued policy discussions with Honorable R. Singh',
-      category: 'Government Service'
+      src: drVoriaPhoto1,
+      title: 'World RAKHI Day Launch',
+      description: 'Dr. Purnima Voria received SDG-16 award – For launching the "World R.A.K.H.I Day" at the United Nations as a Peace Initiative for promoting Brotherhood and Sisterhood practices across the Globe under the theme "Vasudhaiva Kutumbakan"- The World is One family',
+      category: 'United Nations'
     },
+    // With World Leaders
     {
       id: 17,
-      src: drVoriaSentLisaWellman,
-      title: 'With Senator Lisa Wellman',
-      description: 'Dr. Voria meeting with Senator Lisa Wellman on legislative matters',
-      category: 'Government Service'
+      src: drVoriaPhoto2,
+      title: 'Davos World Economic Forum',
+      description: 'Dr. Purnima Voria with world leaders at Davos forum',
+      category: 'World Leaders'
     },
     {
       id: 18,
-      src: drVoriaLisaSmith,
-      title: 'With Lisa Smith',
-      description: 'Dr. Voria in professional meeting with Lisa Smith',
-      category: 'Professional'
+      src: drVoriaPhoto3,
+      title: 'With WWF Director General',
+      description: 'Dr. Purnima Voria with Kirsten Schuijt, the Director General of the World Wide Fund for Nature (WWF) International',
+      category: 'World Leaders'
     },
     {
       id: 19,
-      src: drVoriaKamal,
-      title: 'Meeting with Kamal',
-      description: 'Dr. Voria in business meeting discussing trade and commerce initiatives',
+      src: drVoriaLisaSmith,
+      title: 'With Hillary Clinton',
+      description: 'Dr. Purnima Voria with Hilary Clinton',
+      category: 'World Leaders'
+    },
+    // Book Launch & Media
+    {
+      id: 20,
+      src: drVoriaPortfolio,
+      title: 'Book Launch - Falling in Love with India',
+      description: 'Book Launch: Falling in love with India, written by Dr. Purnima Voria',
       category: 'Professional'
     },
     {
-      id: 20,
-      src: drVoriaDisit,
-      title: 'With Dixit',
-      description: 'Dr. Voria meeting with Dixit on international business matters',
-      category: 'International'
-    },
-    {
       id: 21,
-      src: drVoriaAfrica,
-      title: 'Africa Business Summit',
-      description: 'Dr. Voria at Africa business summit promoting international trade',
-      category: 'International'
+      src: drVoriaAboutPhoto,
+      title: 'Book Signing Event',
+      description: 'Dr. Purnima Voria, signing "Falling in Love with India" book',
+      category: 'Professional'
     },
     {
       id: 22,
-      src: drVoriaWithGroup,
-      title: 'Group Leadership Meeting',
-      description: 'Dr. Voria with group of international business leaders and stakeholders',
-      category: 'Community'
+      src: drVoriaEvent1,
+      title: 'Journey from Home to White House',
+      description: '"Falling in love with India" Dr. Voria\'s journey from "Home to the White House"',
+      category: 'Professional'
     },
     {
       id: 23,
-      src: drVoriaPhoto1,
-      title: 'Business Leadership',
-      description: 'Dr. Voria in professional business attire representing international trade leadership',
+      src: drVoriaEvent2,
+      title: 'Daughter of Jaipur',
+      description: 'Dr. Purnima Voria- a daughter of Jaipur, Rajasthan, India, embarks in the United States as a newly wed',
       category: 'Professional'
     },
     {
       id: 24,
-      src: drVoriaPhoto2,
-      title: 'International Relations',
-      description: 'Dr. Voria promoting US-India business relations and cultural exchange',
-      category: 'International'
-    },
-    {
-      id: 25,
-      src: drVoriaPhoto3,
-      title: 'Speaking Engagement',
-      description: 'Dr. Voria at a major international business conference and speaking engagement',
-      category: 'Speaking'
-    },
-    {
-      id: 26,
-      src: drVoriaEvent1,
-      title: 'Global Business Summit',
-      description: 'Dr. Voria participating in global business summit and trade discussions',
-      category: 'Events'
-    },
-    {
-      id: 27,
-      src: drVoriaEvent2,
-      title: 'Diplomatic Engagement',
-      description: 'Dr. Voria in diplomatic settings fostering international business relationships',
-      category: 'Diplomatic'
-    },
-    {
-      id: 28,
       src: drVoriaEvent3,
-      title: 'Community Leadership',
-      description: 'Dr. Voria engaging with community leaders and business stakeholders',
-      category: 'Community'
+      title: 'Featured in Divapreneur Magazine',
+      description: 'Dr. Purnima Voria featured in Divapreneur Magazine',
+      category: 'Professional'
     }
   ]
 
@@ -1027,7 +1004,7 @@ function App() {
 
           {/* Category Filter */}
           <div className="flex flex-wrap justify-center gap-4 mb-12">
-            {['All', 'Professional', 'Events', 'Government Service', 'International', 'Speaking', 'Diplomatic', 'Community'].map((category) => (
+            {['All', 'United States', 'India', 'United Nations', 'World Leaders', 'Professional'].map((category) => (
               <button
                 key={category}
                 className="px-6 py-3 rounded-full bg-white border-2 border-navy/20 text-navy hover:bg-navy hover:text-white transition-all duration-300 font-body font-medium elegant-shadow hover-lift"
