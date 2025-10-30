@@ -83,6 +83,13 @@ import drvTelephonyProvisioning from './assets/DrV_Telephony_Provisioning_Operat
 import drvUNPlaque from './assets/DrV_UN_plaque.jpeg'
 import drvWomenOfChange from './assets/DrV_WomenofChange_RaniOfJhansi_India.jpeg'
 import drvWWWConference from './assets/DrV_WWW_Conference.jpeg'
+import drvNewGlobalIndianExcellence from './assets/DrV_NewGlobalIndianExcellenceAward2013.jpeg'
+import drvInternationalPowerIndians2022 from './assets/DrV_IInternationalPowerIndians\'Awards2022(Awardee).jpeg'
+import drvCommemorative from './assets/DrV_Commemorative_MinorityEnterpriseDevelopmentWeek(MEDWeek)2011.jpeg'
+import drvExcellenceFOG from './assets/DrV_ExcellenceinGlobalBusinessPromotions(fromFOG-FestivalofGlobe).jpeg'
+import drvSpeakerPMModi2017 from './assets/DrV_Speaker_CommunityReceptionforPrimeMinisterShriNarendraModi(June25,2017).jpeg'
+import drvPlaqueSustainableSmartCities from './assets/DrV_Plaque_4thAnnualSustainableSmartCitiesIndia(PresentedtoPurnimaVoria).jpeg'
+import drvWhatsAppImage from './assets/WhatsAppImage2025-10-03at10.08.54.jpeg'
 
 function App() {
   const [activeSection, setActiveSection] = useState('home')
@@ -201,9 +208,9 @@ function App() {
       description: 'Dr. Purnima Voria receiving an award from CDOT'
     },
     {
-      src: drvExcellenceGlobal,
-      title: 'Excellence in Global Business Promotions',
-      description: 'Dr. Purnima Voria receiving the Excellence in Global Business Promotions Award'
+      src: drvExcellenceFOG,
+      title: 'Excellence in Global Business Promotions (FOG - Festival of Globe)',
+      description: 'Dr. Purnima Voria receiving the Excellence in Global Business Promotions Award from Festival of Globe'
     },
     {
       src: drvFederationIndoAmericans,
@@ -271,14 +278,14 @@ function App() {
       description: 'Dr. Purnima Voria as a speaker at IIFAIRE'
     },
     {
-      src: drvSpeakerReception,
-      title: 'Speaker at Reception for PM Modi in US',
-      description: 'Dr. Purnima Voria as a speaker at the reception for PM Modi in the US'
+      src: drvSpeakerPMModi2017,
+      title: 'Speaker - Community Reception for Prime Minister Shri Narendra Modi (June 25, 2017)',
+      description: 'Dr. Purnima Voria as a speaker at the community reception for Prime Minister Shri Narendra Modi on June 25, 2017'
     },
     {
-      src: drvSustainableSmartCities,
-      title: 'Sustainable Smart Cities India',
-      description: 'Dr. Purnima Voria at the Sustainable Smart Cities India conference'
+      src: drvPlaqueSustainableSmartCities,
+      title: 'Plaque - 4th Annual Sustainable Smart Cities India',
+      description: 'Plaque presented to Dr. Purnima Voria at the 4th Annual Sustainable Smart Cities India conference'
     },
     {
       src: drvSymbolArts,
@@ -304,6 +311,26 @@ function App() {
       src: drvWWWConference,
       title: 'WWW Conference',
       description: 'Dr. Purnima Voria at the WWW Conference'
+    },
+    {
+      src: drvNewGlobalIndianExcellence,
+      title: 'New Global Indian Excellence Award 2013',
+      description: 'Dr. Purnima Voria receiving the New Global Indian Excellence Award 2013'
+    },
+    {
+      src: drvInternationalPowerIndians2022,
+      title: 'International Power Indians Awards 2022 (Awardee)',
+      description: 'Dr. Purnima Voria as an awardee at the International Power Indians Awards 2022'
+    },
+    {
+      src: drvCommemorative,
+      title: 'Commemorative - Minority Enterprise Development Week (MED Week) 2011',
+      description: 'Dr. Purnima Voria receiving commemorative recognition at Minority Enterprise Development Week (MED Week) 2011'
+    },
+    {
+      src: drvWhatsAppImage,
+      title: 'Leadership Recognition',
+      description: 'Dr. Purnima Voria receiving leadership recognition'
     }
   ]
 
@@ -551,9 +578,9 @@ function App() {
     },
     {
       id: 33,
-      src: drvExcellenceGlobal,
-      title: 'Excellence in Global Business Promotions',
-      description: 'Dr. Purnima Voria receiving the Excellence in Global Business Promotions Award',
+      src: drvExcellenceFOG,
+      title: 'Excellence in Global Business Promotions (FOG - Festival of Globe)',
+      description: 'Dr. Purnima Voria receiving the Excellence in Global Business Promotions Award from Festival of Globe',
       category: 'Awards & Honors'
     },
     {
@@ -649,16 +676,16 @@ function App() {
     },
     {
       id: 47,
-      src: drvSpeakerReception,
-      title: 'Speaker at Reception for PM Modi in US',
-      description: 'Dr. Purnima Voria as a speaker at the reception for PM Modi in the US',
+      src: drvSpeakerPMModi2017,
+      title: 'Speaker - Community Reception for Prime Minister Shri Narendra Modi (June 25, 2017)',
+      description: 'Dr. Purnima Voria as a speaker at the community reception for Prime Minister Shri Narendra Modi on June 25, 2017',
       category: 'Awards & Honors'
     },
     {
       id: 48,
-      src: drvSustainableSmartCities,
-      title: 'Sustainable Smart Cities India',
-      description: 'Dr. Purnima Voria at the Sustainable Smart Cities India conference',
+      src: drvPlaqueSustainableSmartCities,
+      title: 'Plaque - 4th Annual Sustainable Smart Cities India',
+      description: 'Plaque presented to Dr. Purnima Voria at the 4th Annual Sustainable Smart Cities India conference',
       category: 'Awards & Honors'
     },
     {
@@ -694,6 +721,34 @@ function App() {
       src: drvWWWConference,
       title: 'WWW Conference',
       description: 'Dr. Purnima Voria at the WWW Conference',
+      category: 'Awards & Honors'
+    },
+    {
+      id: 54,
+      src: drvNewGlobalIndianExcellence,
+      title: 'New Global Indian Excellence Award 2013',
+      description: 'Dr. Purnima Voria receiving the New Global Indian Excellence Award 2013',
+      category: 'Awards & Honors'
+    },
+    {
+      id: 55,
+      src: drvInternationalPowerIndians2022,
+      title: 'International Power Indians Awards 2022 (Awardee)',
+      description: 'Dr. Purnima Voria as an awardee at the International Power Indians Awards 2022',
+      category: 'Awards & Honors'
+    },
+    {
+      id: 56,
+      src: drvCommemorative,
+      title: 'Commemorative - Minority Enterprise Development Week (MED Week) 2011',
+      description: 'Dr. Purnima Voria receiving commemorative recognition at Minority Enterprise Development Week (MED Week) 2011',
+      category: 'Awards & Honors'
+    },
+    {
+      id: 57,
+      src: drvWhatsAppImage,
+      title: 'Leadership Recognition',
+      description: 'Dr. Purnima Voria receiving leadership recognition',
       category: 'Awards & Honors'
     }
   ]
