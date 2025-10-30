@@ -868,14 +868,50 @@ function App() {
                 <CardTitle className="text-3xl font-display font-bold text-gray-900 mb-4">Leadership Excellence</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-lg text-gray-600 font-body leading-relaxed mb-4">
-                  Recognized by The Wall Street Journal as Business Woman of the Year and recipient of the Congressional Medal of Distinction for her outstanding contributions to global business and diplomacy.
+                <p className="text-lg text-gray-600 font-body leading-relaxed mb-6">
+                  Recognized by The Wall Street Journal as Business Woman of the Year and recipient of the Congressional Medal of Distinction for her outstanding contributions to global business and diplomacy. Dr. Voria has received over 31 prestigious awards and honors from government agencies, international organizations, and business associations.
                 </p>
-                <div className="bg-gray-50 p-4 rounded-lg">
-                  <h5 className="font-display font-semibold text-gray-900 mb-2">Key Recognition:</h5>
-                  <p className="text-gray-600 font-body">
-                    <strong>Business Woman of the Year – The Wall Street Journal</strong>
-                  </p>
+                <div className="space-y-4">
+                  <div className="bg-gray-50 p-4 rounded-lg">
+                    <h5 className="font-display font-semibold text-gray-900 mb-2">🏆 Government & Military Recognition:</h5>
+                    <ul className="text-gray-600 font-body space-y-1 ml-4">
+                      <li>• 460th Space Wing Command & Commander Awards</li>
+                      <li>• Governor's Asia Pacific American Advisory Council</li>
+                      <li>• Business Advisory Council Appointment</li>
+                      <li>• CDOT (Colorado Department of Transportation) Award</li>
+                    </ul>
+                  </div>
+                  
+                  <div className="bg-gray-50 p-4 rounded-lg">
+                    <h5 className="font-display font-semibold text-gray-900 mb-2">🌟 International Excellence Awards:</h5>
+                    <ul className="text-gray-600 font-body space-y-1 ml-4">
+                      <li>• New Global Indian Excellence Award 2013</li>
+                      <li>• International Power Indians Awards 2022 (Awardee)</li>
+                      <li>• Global Power India Award</li>
+                      <li>• NGI Excellence Award</li>
+                    </ul>
+                  </div>
+                  
+                  <div className="bg-gray-50 p-4 rounded-lg">
+                    <h5 className="font-display font-semibold text-gray-900 mb-2">🎤 Speaker & Leadership Honors:</h5>
+                    <ul className="text-gray-600 font-body space-y-1 ml-4">
+                      <li>• Community Reception for PM Narendra Modi (June 2017)</li>
+                      <li>• IIFAIRE International Forum Speaker</li>
+                      <li>• Roundtable Series - The Offshore Institute</li>
+                      <li>• SMSG Women NYC Women's Leadership Conference</li>
+                    </ul>
+                  </div>
+                  
+                  <div className="bg-gray-50 p-4 rounded-lg">
+                    <h5 className="font-display font-semibold text-gray-900 mb-2">🏅 Community & Business Leadership:</h5>
+                    <ul className="text-gray-600 font-body space-y-1 ml-4">
+                      <li>• AT&T Broadband Community Leadership Award</li>
+                      <li>• Excellence in Global Business Promotions (FOG)</li>
+                      <li>• Minority Enterprise Development Week Recognition (2011)</li>
+                      <li>• Federation of Indo-Americans of Northern California</li>
+                      <li>• Rotary Club Jaipur South Recognition</li>
+                    </ul>
+                  </div>
                 </div>
               </CardContent>
             </Card>
@@ -885,9 +921,46 @@ function App() {
                 <CardTitle className="text-3xl font-display font-bold text-gray-900 mb-4">Global Impact</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-lg text-gray-600 font-body leading-relaxed">
-                  Featured speaker at the World Economic Forum, United Nations, and major international summits, sharing insights on global trade and minority business development.
+                <p className="text-lg text-gray-600 font-body leading-relaxed mb-6">
+                  Featured speaker at the World Economic Forum, United Nations, and major international summits, sharing insights on global trade and minority business development. Dr. Voria's global impact is recognized through prestigious international awards and conference honors.
                 </p>
+                <div className="space-y-4">
+                  <div className="bg-gray-50 p-4 rounded-lg">
+                    <h5 className="font-display font-semibold text-gray-900 mb-2">🌍 United Nations & Global Forums:</h5>
+                    <ul className="text-gray-600 font-body space-y-1 ml-4">
+                      <li>• UN Plaque Recognition</li>
+                      <li>• Sustainable Smart Cities India Conference (4th Annual)</li>
+                      <li>• PBD Canada 2011 Participant</li>
+                      <li>• WWW Conference Speaker</li>
+                    </ul>
+                  </div>
+                  
+                  <div className="bg-gray-50 p-4 rounded-lg">
+                    <h5 className="font-display font-semibold text-gray-900 mb-2">📰 Media & Press Recognition:</h5>
+                    <ul className="text-gray-600 font-body space-y-1 ml-4">
+                      <li>• International Power Indians Awards - Corp News Feature</li>
+                      <li>• International Power Indians Awards - Newspaper Coverage</li>
+                      <li>• NYSO Events Featured Leader</li>
+                    </ul>
+                  </div>
+                  
+                  <div className="bg-gray-50 p-4 rounded-lg">
+                    <h5 className="font-display font-semibold text-gray-900 mb-2">🏛️ Cultural & Heritage Honors:</h5>
+                    <ul className="text-gray-600 font-body space-y-1 ml-4">
+                      <li>• Women of Change - Rani of Jhansi, India</li>
+                      <li>• Konark Wheel, Orissa Recognition</li>
+                      <li>• Symbol Arts - Sheriff's Office Award</li>
+                    </ul>
+                  </div>
+                  
+                  <div className="bg-gray-50 p-4 rounded-lg">
+                    <h5 className="font-display font-semibold text-gray-900 mb-2">💼 Professional Excellence:</h5>
+                    <ul className="text-gray-600 font-body space-y-1 ml-4">
+                      <li>• Telephony Provisioning Operations Recognition</li>
+                      <li>• Leadership Recognition Awards</li>
+                    </ul>
+                  </div>
+                </div>
               </CardContent>
             </Card>
           </div>
