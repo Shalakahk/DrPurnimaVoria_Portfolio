@@ -93,6 +93,7 @@ import drvWhatsAppImage from './assets/WhatsAppImage2025-10-03at10.08.54.jpeg'
 
 function App() {
   const [activeSection, setActiveSection] = useState('home')
+  const [selectedCategory, setSelectedCategory] = useState('All')
 
   useEffect(() => {
     const handleScroll = () => {
@@ -1448,7 +1449,12 @@ function App() {
             {["All", 'United States', 'India', 'United Nations', 'World Leaders', 'Professional', 'Indian Conglomerates', 'Awards & Honors'].map((category) => (
               <button
                 key={category}
-                className="px-6 py-3 rounded-full bg-white border-2 border-navy/20 text-navy hover:bg-navy hover:text-white transition-all duration-300 font-body font-medium elegant-shadow hover-lift"
+                onClick={() => setSelectedCategory(category)}
+                className={`px-6 py-3 rounded-full border-2 transition-all duration-300 font-body font-medium elegant-shadow hover-lift ${
+                  selectedCategory === category
+                    ? 'bg-navy text-white border-navy'
+                    : 'bg-white border-navy/20 text-navy hover:bg-navy hover:text-white'
+                }`}
               >
                 {category}
               </button>
@@ -1457,7 +1463,9 @@ function App() {
 
           {/* Gallery Grid */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {galleryImages.map((image, index) => (
+            {galleryImages
+              .filter(image => selectedCategory === 'All' || image.category === selectedCategory)
+              .map((image, index) => (
               <div
                 key={image.id}
                 className="gallery-item group relative overflow-hidden rounded-2xl elegant-shadow-lg hover-lift bg-white"
