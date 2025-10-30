@@ -308,13 +308,13 @@ function App() {
   ]
 
   const mediaAppearances = [
-    'BBC World News London - Climate Change Commentary',
-    'Voice of America TV and Radio - Global Women\'s Empowerment',
-    'India Today Magazine - NRI Economic Contributions',
-    'The Times of India - Business Leadership',
-    'The Denver Post - Local Business Impact',
-    'The Denver Business Journal - Trade Relations',
-    'Colorado Today Television - Community Leadership'
+    { title: 'BBC World News London - Climate Change Commentary', url: 'https://www.bbc.com/news' },
+    { title: 'Voice of America TV and Radio - Global Women\'s Empowerment', url: 'https://www.voanews.com' },
+    { title: 'India Today Magazine - NRI Economic Contributions', url: 'https://www.indiatoday.in' },
+    { title: 'The Times of India - Business Leadership', url: 'https://timesofindia.indiatimes.com' },
+    { title: 'The Denver Post - Local Business Impact', url: 'https://www.denverpost.com' },
+    { title: 'The Denver Business Journal - Trade Relations', url: 'https://www.bizjournals.com/denver' },
+    { title: 'Colorado Today Television - Community Leadership', url: 'https://www.colorado.gov' }
   ]
 
   const galleryImages = [
@@ -1317,11 +1317,11 @@ function App() {
             {achievements.map((achievement, index) => (
               <Card key={index} className="elegant-shadow-lg hover-lift bg-white border-gold/20 overflow-hidden">
                 {achievement.src && (
-                  <div className="aspect-[4/3] overflow-hidden">
+                  <div className="aspect-[4/3] overflow-hidden bg-gray-50">
                     <img
                       src={achievement.src}
                       alt={achievement.title}
-                      className="w-full h-full object-cover transition-transform duration-500 hover:scale-110"
+                      className="w-full h-full object-contain transition-transform duration-500 hover:scale-105"
                     />
                   </div>
                 )}
@@ -1528,21 +1528,33 @@ function App() {
               <div className="relative overflow-hidden">
                 <div className="flex space-x-6 animate-scroll">
                   {mediaAppearances.map((appearance, index) => (
-                    <div key={index} className="flex-shrink-0 w-80 p-6 bg-white rounded-xl elegant-shadow-lg hover-lift border border-gray-200">
+                    <a 
+                      key={index} 
+                      href={appearance.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex-shrink-0 w-80 p-6 bg-white rounded-xl elegant-shadow-lg hover-lift border border-gray-200 cursor-pointer transition-all duration-300 hover:border-gold"
+                    >
                       <div className="flex items-center space-x-4">
                         <ExternalLink className="w-6 h-6 text-navy flex-shrink-0" />
-                        <span className="text-navy/80 font-body">{appearance}</span>
+                        <span className="text-navy/80 font-body">{appearance.title}</span>
                       </div>
-                    </div>
+                    </a>
                   ))}
                   {/* Duplicate for seamless loop */}
                   {mediaAppearances.map((appearance, index) => (
-                    <div key={`duplicate-${index}`} className="flex-shrink-0 w-80 p-6 bg-white rounded-xl elegant-shadow-lg hover-lift border border-gray-200">
+                    <a 
+                      key={`duplicate-${index}`} 
+                      href={appearance.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex-shrink-0 w-80 p-6 bg-white rounded-xl elegant-shadow-lg hover-lift border border-gray-200 cursor-pointer transition-all duration-300 hover:border-gold"
+                    >
                       <div className="flex items-center space-x-4">
                         <ExternalLink className="w-6 h-6 text-navy flex-shrink-0" />
-                        <span className="text-navy/80 font-body">{appearance}</span>
+                        <span className="text-navy/80 font-body">{appearance.title}</span>
                       </div>
-                    </div>
+                    </a>
                   ))}
                 </div>
               </div>
