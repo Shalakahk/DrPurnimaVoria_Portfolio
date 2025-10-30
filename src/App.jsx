@@ -1001,42 +1001,7 @@ function App() {
                 India, and more.
               </p>
 
-              <div className="bg-gray-50 p-6 rounded-xl mt-8">
-                <h4 className="text-xl font-display font-bold text-gray-900 mb-6">Leadership Highlights</h4>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                  <button className="flex items-center space-x-3 p-4 bg-white rounded-lg elegant-shadow hover-lift text-left border border-gray-200 hover:border-navy transition-colors">
-                    <Building className="w-6 h-6 text-navy flex-shrink-0" />
-                    <div>
-                      <div className="font-body font-semibold text-gray-900">Global Trade Leadership</div>
-                      <div className="text-sm text-gray-600">Founder & CEO of NUICC, 9,200+ members</div>
-                    </div>
-                  </button>
-                  
-                  <button className="flex items-center space-x-3 p-4 bg-white rounded-lg elegant-shadow hover-lift text-left border border-gray-200 hover:border-navy transition-colors">
-                    <Award className="w-6 h-6 text-navy flex-shrink-0" />
-                    <div>
-                      <div className="font-body font-semibold text-gray-900">U.S. Administrations Advisor</div>
-                      <div className="text-sm text-gray-600">Bush and Obama administrations</div>
-                    </div>
-                  </button>
-                  
-                  <button className="flex items-center space-x-3 p-4 bg-white rounded-lg elegant-shadow hover-lift text-left border border-gray-200 hover:border-navy transition-colors">
-                    <Globe className="w-6 h-6 text-navy flex-shrink-0" />
-                    <div>
-                      <div className="font-body font-semibold text-gray-900">International Recognition</div>
-                      <div className="text-sm text-gray-600">World Economic Forum, UN summits</div>
-                    </div>
-                  </button>
-                  
-                  <button className="flex items-center space-x-3 p-4 bg-white rounded-lg elegant-shadow hover-lift text-left border border-gray-200 hover:border-navy transition-colors">
-                    <Crown className="w-6 h-6 text-navy flex-shrink-0" />
-                    <div>
-                      <div className="font-body font-semibold text-gray-900">Community Leadership</div>
-                      <div className="text-sm text-gray-600">Ambassador for Peace, Advisory Councils</div>
-                    </div>
-                  </button>
-                </div>
-              </div>
+
             </div>
           </div>
         </div>
