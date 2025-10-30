@@ -54,6 +54,35 @@ import usCapitol from './assets/4H72usG0uh3m.jpg'
 import businessHandshake from './assets/bMSPVN2xK10Q.jpg'
 import redFort from './assets/ngkhAwRQPnFU.jpg'
 import tajMahal from './assets/C9sYIVE8xTRm.jpg'
+import drvArvindKrishna from './assets/DrV_ArvindKrishna.jpg'
+import drvChandrashekar from './assets/DrV_Chandrashekar.jpg'
+import drvBirla from './assets/DrV_Birla.jpg'
+import drv460thSpacewing from './assets/DrV_460thspacewing.jpeg'
+import drv460thSpaceWingCommander from './assets/DrV_460thSpaceWingCommander.jpeg'
+import drvAdvisoryCouncil from './assets/DrV_AdvisoryCouncil_BusinessAdvisoryCouncil.jpeg'
+import drvATTBroadband from './assets/DrV_AT&TBroadband_CommunityLeadership.jpeg'
+import drvCDOT from './assets/DrV_CDOT.jpeg'
+import drvExcellenceGlobal from './assets/DrV_ExcellenceinGlobalBusinessPromotions.jpeg'
+import drvFederationIndoAmericans from './assets/DrV_FederationofIndoAmericans_Northerncalifornia.jpeg'
+import drvGlobalPowerIndia from './assets/DrV_Global_Power_India_Award.jpeg'
+import drvGovernoAsiaPacific from './assets/DrV_Governo\'sAsiaPacificAmericanAdvisoryCouncil.jpeg'
+import drvInternationalPowerIndiansCorp from './assets/DrV_InternationalPowerIndiansAwards_CorpNews.jpeg'
+import drvInternationalPowerIndiansNews from './assets/DrV_InternationalPowerIndiansAwards_Newspaper.jpeg'
+import drvKonarkWheel from './assets/DrV_KonarkWheel_Orissa.jpeg'
+import drvNGIExcellence from './assets/DrV_NGIExcellenceAward.jpeg'
+import drvNYSO from './assets/DrV_NYSO_events.jpeg'
+import drvPDBCanada from './assets/DrV_PDBCANADA2011.jpeg'
+import drvRotaryClub from './assets/DrV_RotaryClubJaipurSouth.jpeg'
+import drvRoundtableSeries from './assets/DrV_RoundatableSeries_TheOffshoreInstitute.jpeg'
+import drvSMSGWomen from './assets/DrV_SMSGWomenNYCWomen\'sLeadershipConference.jpeg'
+import drvSpeakerIifaire from './assets/DrV_Speaker_iifaire.jpeg'
+import drvSpeakerReception from './assets/DrV_Speaker_Reception_PM_Modi_US.jpeg'
+import drvSustainableSmartCities from './assets/DrV_Sustainable_Smart_Cities_India.jpeg'
+import drvSymbolArts from './assets/DrV_SYMBOLARTS_SheriffsOffice.jpeg'
+import drvTelephonyProvisioning from './assets/DrV_Telephony_Provisioning_Operations.jpeg'
+import drvUNPlaque from './assets/DrV_UN_plaque.jpeg'
+import drvWomenOfChange from './assets/DrV_WomenofChange_RaniOfJhansi_India.jpeg'
+import drvWWWConference from './assets/DrV_WWW_Conference.jpeg'
 
 function App() {
   const [activeSection, setActiveSection] = useState('home')
@@ -136,6 +165,189 @@ function App() {
       title: 'Founder & CEO of National U.S. India Chamber of Commerce',
       description: 'Leading the organization with 9,200+ members worldwide, facilitating bilateral trade and strengthening Indo-US relations',
       icon: <Crown className="w-4 h-4" />
+    },
+    // Awards & Honors
+    {
+      id: 28,
+      src: drv460thSpacewing,
+      title: '460th Space Wing',
+      description: 'Dr. Purnima Voria with the 460th Space Wing Command',
+      category: 'Awards & Honors'
+    },
+    {
+      id: 29,
+      src: drv460thSpaceWingCommander,
+      title: '460th Space Wing Commander',
+      description: 'Dr. Purnima Voria with the 460th Space Wing Commander',
+      category: 'Awards & Honors'
+    },
+    {
+      id: 30,
+      src: drvAdvisoryCouncil,
+      title: 'Business Advisory Council',
+      description: 'Dr. Purnima Voria at the Business Advisory Council',
+      category: 'Awards & Honors'
+    },
+    {
+      id: 31,
+      src: drvATTBroadband,
+      title: 'AT&T Broadband Community Leadership',
+      description: 'Dr. Purnima Voria receiving the AT&T Broadband Community Leadership Award',
+      category: 'Awards & Honors'
+    },
+    {
+      id: 32,
+      src: drvCDOT,
+      title: 'CDOT Award',
+      description: 'Dr. Purnima Voria receiving an award from CDOT',
+      category: 'Awards & Honors'
+    },
+    {
+      id: 33,
+      src: drvExcellenceGlobal,
+      title: 'Excellence in Global Business Promotions',
+      description: 'Dr. Purnima Voria receiving the Excellence in Global Business Promotions Award',
+      category: 'Awards & Honors'
+    },
+    {
+      id: 34,
+      src: drvFederationIndoAmericans,
+      title: 'Federation of Indo-Americans of Northern California',
+      description: 'Dr. Purnima Voria with the Federation of Indo-Americans of Northern California',
+      category: 'Awards & Honors'
+    },
+    {
+      id: 35,
+      src: drvGlobalPowerIndia,
+      title: 'Global Power India Award',
+      description: 'Dr. Purnima Voria receiving the Global Power India Award',
+      category: 'Awards & Honors'
+    },
+    {
+      id: 36,
+      src: drvGovernoAsiaPacific,
+      title: 'Governor\'s Asia Pacific American Advisory Council',
+      description: 'Dr. Purnima Voria at the Governor\'s Asia Pacific American Advisory Council',
+      category: 'Awards & Honors'
+    },
+    {
+      id: 37,
+      src: drvInternationalPowerIndiansCorp,
+      title: 'International Power Indians Awards - Corp News',
+      description: 'Dr. Purnima Voria featured in the International Power Indians Awards - Corp News',
+      category: 'Awards & Honors'
+    },
+    {
+      id: 38,
+      src: drvInternationalPowerIndiansNews,
+      title: 'International Power Indians Awards - Newspaper',
+      description: 'Dr. Purnima Voria featured in the International Power Indians Awards - Newspaper',
+      category: 'Awards & Honors'
+    },
+    {
+      id: 39,
+      src: drvKonarkWheel,
+      title: 'Konark Wheel, Orissa',
+      description: 'Dr. Purnima Voria with the Konark Wheel, Orissa',
+      category: 'Awards & Honors'
+    },
+    {
+      id: 40,
+      src: drvNGIExcellence,
+      title: 'NGI Excellence Award',
+      description: 'Dr. Purnima Voria receiving the NGI Excellence Award',
+      category: 'Awards & Honors'
+    },
+    {
+      id: 41,
+      src: drvNYSO,
+      title: 'NYSO Events',
+      description: 'Dr. Purnima Voria at NYSO events',
+      category: 'Awards & Honors'
+    },
+    {
+      id: 42,
+      src: drvPDBCanada,
+      title: 'PBD Canada 2011',
+      description: 'Dr. Purnima Voria at PBD Canada 2011',
+      category: 'Awards & Honors'
+    },
+    {
+      id: 43,
+      src: drvRotaryClub,
+      title: 'Rotary Club Jaipur South',
+      description: 'Dr. Purnima Voria with the Rotary Club of Jaipur South',
+      category: 'Awards & Honors'
+    },
+    {
+      id: 44,
+      src: drvRoundtableSeries,
+      title: 'Roundtable Series - The Offshore Institute',
+      description: 'Dr. Purnima Voria at the Roundtable Series - The Offshore Institute',
+      category: 'Awards & Honors'
+    },
+    {
+      id: 45,
+      src: drvSMSGWomen,
+      title: 'SMSG Women NYC Women\'s Leadership Conference',
+      description: 'Dr. Purnima Voria at the SMSG Women NYC Women\'s Leadership Conference',
+      category: 'Awards & Honors'
+    },
+    {
+      id: 46,
+      src: drvSpeakerIifaire,
+      title: 'Speaker at IIFAIRE',
+      description: 'Dr. Purnima Voria as a speaker at IIFAIRE',
+      category: 'Awards & Honors'
+    },
+    {
+      id: 47,
+      src: drvSpeakerReception,
+      title: 'Speaker at Reception for PM Modi in US',
+      description: 'Dr. Purnima Voria as a speaker at the reception for PM Modi in the US',
+      category: 'Awards & Honors'
+    },
+    {
+      id: 48,
+      src: drvSustainableSmartCities,
+      title: 'Sustainable Smart Cities India',
+      description: 'Dr. Purnima Voria at the Sustainable Smart Cities India conference',
+      category: 'Awards & Honors'
+    },
+    {
+      id: 49,
+      src: drvSymbolArts,
+      title: 'Symbol Arts - Sheriff\'s Office',
+      description: 'Dr. Purnima Voria with Symbol Arts - Sheriff\'s Office',
+      category: 'Awards & Honors'
+    },
+    {
+      id: 50,
+      src: drvTelephonyProvisioning,
+      title: 'Telephony Provisioning Operations',
+      description: 'Dr. Purnima Voria in Telephony Provisioning Operations',
+      category: 'Awards & Honors'
+    },
+    {
+      id: 51,
+      src: drvUNPlaque,
+      title: 'UN Plaque',
+      description: 'Dr. Purnima Voria with a UN Plaque',
+      category: 'Awards & Honors'
+    },
+    {
+      id: 52,
+      src: drvWomenOfChange,
+      title: 'Women of Change - Rani of Jhansi, India',
+      description: 'Dr. Purnima Voria as a Woman of Change - Rani of Jhansi, India',
+      category: 'Awards & Honors'
+    },
+    {
+      id: 53,
+      src: drvWWWConference,
+      title: 'WWW Conference',
+      description: 'Dr. Purnima Voria at the WWW Conference',
+      category: 'Awards & Honors'
     }
   ]
 
@@ -169,6 +381,189 @@ function App() {
       title: 'National Advisor to MBDA',
       year: '2004-2014',
       description: 'Drove growth and policy-making for 7.8 million minority businesses'
+    },
+    // Awards & Honors
+    {
+      id: 28,
+      src: drv460thSpacewing,
+      title: '460th Space Wing',
+      description: 'Dr. Purnima Voria with the 460th Space Wing Command',
+      category: 'Awards & Honors'
+    },
+    {
+      id: 29,
+      src: drv460thSpaceWingCommander,
+      title: '460th Space Wing Commander',
+      description: 'Dr. Purnima Voria with the 460th Space Wing Commander',
+      category: 'Awards & Honors'
+    },
+    {
+      id: 30,
+      src: drvAdvisoryCouncil,
+      title: 'Business Advisory Council',
+      description: 'Dr. Purnima Voria at the Business Advisory Council',
+      category: 'Awards & Honors'
+    },
+    {
+      id: 31,
+      src: drvATTBroadband,
+      title: 'AT&T Broadband Community Leadership',
+      description: 'Dr. Purnima Voria receiving the AT&T Broadband Community Leadership Award',
+      category: 'Awards & Honors'
+    },
+    {
+      id: 32,
+      src: drvCDOT,
+      title: 'CDOT Award',
+      description: 'Dr. Purnima Voria receiving an award from CDOT',
+      category: 'Awards & Honors'
+    },
+    {
+      id: 33,
+      src: drvExcellenceGlobal,
+      title: 'Excellence in Global Business Promotions',
+      description: 'Dr. Purnima Voria receiving the Excellence in Global Business Promotions Award',
+      category: 'Awards & Honors'
+    },
+    {
+      id: 34,
+      src: drvFederationIndoAmericans,
+      title: 'Federation of Indo-Americans of Northern California',
+      description: 'Dr. Purnima Voria with the Federation of Indo-Americans of Northern California',
+      category: 'Awards & Honors'
+    },
+    {
+      id: 35,
+      src: drvGlobalPowerIndia,
+      title: 'Global Power India Award',
+      description: 'Dr. Purnima Voria receiving the Global Power India Award',
+      category: 'Awards & Honors'
+    },
+    {
+      id: 36,
+      src: drvGovernoAsiaPacific,
+      title: 'Governor\'s Asia Pacific American Advisory Council',
+      description: 'Dr. Purnima Voria at the Governor\'s Asia Pacific American Advisory Council',
+      category: 'Awards & Honors'
+    },
+    {
+      id: 37,
+      src: drvInternationalPowerIndiansCorp,
+      title: 'International Power Indians Awards - Corp News',
+      description: 'Dr. Purnima Voria featured in the International Power Indians Awards - Corp News',
+      category: 'Awards & Honors'
+    },
+    {
+      id: 38,
+      src: drvInternationalPowerIndiansNews,
+      title: 'International Power Indians Awards - Newspaper',
+      description: 'Dr. Purnima Voria featured in the International Power Indians Awards - Newspaper',
+      category: 'Awards & Honors'
+    },
+    {
+      id: 39,
+      src: drvKonarkWheel,
+      title: 'Konark Wheel, Orissa',
+      description: 'Dr. Purnima Voria with the Konark Wheel, Orissa',
+      category: 'Awards & Honors'
+    },
+    {
+      id: 40,
+      src: drvNGIExcellence,
+      title: 'NGI Excellence Award',
+      description: 'Dr. Purnima Voria receiving the NGI Excellence Award',
+      category: 'Awards & Honors'
+    },
+    {
+      id: 41,
+      src: drvNYSO,
+      title: 'NYSO Events',
+      description: 'Dr. Purnima Voria at NYSO events',
+      category: 'Awards & Honors'
+    },
+    {
+      id: 42,
+      src: drvPDBCanada,
+      title: 'PBD Canada 2011',
+      description: 'Dr. Purnima Voria at PBD Canada 2011',
+      category: 'Awards & Honors'
+    },
+    {
+      id: 43,
+      src: drvRotaryClub,
+      title: 'Rotary Club Jaipur South',
+      description: 'Dr. Purnima Voria with the Rotary Club of Jaipur South',
+      category: 'Awards & Honors'
+    },
+    {
+      id: 44,
+      src: drvRoundtableSeries,
+      title: 'Roundtable Series - The Offshore Institute',
+      description: 'Dr. Purnima Voria at the Roundtable Series - The Offshore Institute',
+      category: 'Awards & Honors'
+    },
+    {
+      id: 45,
+      src: drvSMSGWomen,
+      title: 'SMSG Women NYC Women\'s Leadership Conference',
+      description: 'Dr. Purnima Voria at the SMSG Women NYC Women\'s Leadership Conference',
+      category: 'Awards & Honors'
+    },
+    {
+      id: 46,
+      src: drvSpeakerIifaire,
+      title: 'Speaker at IIFAIRE',
+      description: 'Dr. Purnima Voria as a speaker at IIFAIRE',
+      category: 'Awards & Honors'
+    },
+    {
+      id: 47,
+      src: drvSpeakerReception,
+      title: 'Speaker at Reception for PM Modi in US',
+      description: 'Dr. Purnima Voria as a speaker at the reception for PM Modi in the US',
+      category: 'Awards & Honors'
+    },
+    {
+      id: 48,
+      src: drvSustainableSmartCities,
+      title: 'Sustainable Smart Cities India',
+      description: 'Dr. Purnima Voria at the Sustainable Smart Cities India conference',
+      category: 'Awards & Honors'
+    },
+    {
+      id: 49,
+      src: drvSymbolArts,
+      title: 'Symbol Arts - Sheriff\'s Office',
+      description: 'Dr. Purnima Voria with Symbol Arts - Sheriff\'s Office',
+      category: 'Awards & Honors'
+    },
+    {
+      id: 50,
+      src: drvTelephonyProvisioning,
+      title: 'Telephony Provisioning Operations',
+      description: 'Dr. Purnima Voria in Telephony Provisioning Operations',
+      category: 'Awards & Honors'
+    },
+    {
+      id: 51,
+      src: drvUNPlaque,
+      title: 'UN Plaque',
+      description: 'Dr. Purnima Voria with a UN Plaque',
+      category: 'Awards & Honors'
+    },
+    {
+      id: 52,
+      src: drvWomenOfChange,
+      title: 'Women of Change - Rani of Jhansi, India',
+      description: 'Dr. Purnima Voria as a Woman of Change - Rani of Jhansi, India',
+      category: 'Awards & Honors'
+    },
+    {
+      id: 53,
+      src: drvWWWConference,
+      title: 'WWW Conference',
+      description: 'Dr. Purnima Voria at the WWW Conference',
+      category: 'Awards & Honors'
     }
   ]
 
@@ -359,31 +754,207 @@ function App() {
     // Indian Conglomerates
     {
       id: 25,
-      src: drVoriaPhoto1,
-      title: 'With Mrs. Nita Mukesh Ambani',
-      description: 'Dr. Purnima Voria with Mrs. Nita Mukesh Ambani for presenting India to the world in the greatest event of his decade at the Lincoln center',
-      category: 'Indian Conglomerates'
-    },
-    {
-      id: 26,
-      src: drVoriaPhoto2,
+      src: drvBirla,
       title: 'With Aditya Vikram Birla',
       description: 'Dr. Purnima Voria with Aditya Vikram Birla, an Indian industrialist and philanthropist',
       category: 'Indian Conglomerates'
     },
     {
-      id: 27,
-      src: drVoriaPhoto3,
+      id: 26,
+      src: drvChandrashekar,
       title: 'With Natarajan Chandrashekar',
       description: 'Dr. Purnima Voria with Natarajan Chandrashekar, an Indian businessman, and the chairman of Tata and Sons and Tata Group',
       category: 'Indian Conglomerates'
     },
     {
-      id: 28,
-      src: drVoriaEvent1,
+      id: 27,
+      src: drvArvindKrishna,
       title: 'With Mr. Arvind Krishna',
       description: 'Dr. Purnima Voria with Mr. Arvind Krishna, an Indian American executive and CEO of IBM',
       category: 'Indian Conglomerates'
+    },
+    // Awards & Honors
+    {
+      id: 28,
+      src: drv460thSpacewing,
+      title: '460th Space Wing',
+      description: 'Dr. Purnima Voria with the 460th Space Wing Command',
+      category: 'Awards & Honors'
+    },
+    {
+      id: 29,
+      src: drv460thSpaceWingCommander,
+      title: '460th Space Wing Commander',
+      description: 'Dr. Purnima Voria with the 460th Space Wing Commander',
+      category: 'Awards & Honors'
+    },
+    {
+      id: 30,
+      src: drvAdvisoryCouncil,
+      title: 'Business Advisory Council',
+      description: 'Dr. Purnima Voria at the Business Advisory Council',
+      category: 'Awards & Honors'
+    },
+    {
+      id: 31,
+      src: drvATTBroadband,
+      title: 'AT&T Broadband Community Leadership',
+      description: 'Dr. Purnima Voria receiving the AT&T Broadband Community Leadership Award',
+      category: 'Awards & Honors'
+    },
+    {
+      id: 32,
+      src: drvCDOT,
+      title: 'CDOT Award',
+      description: 'Dr. Purnima Voria receiving an award from CDOT',
+      category: 'Awards & Honors'
+    },
+    {
+      id: 33,
+      src: drvExcellenceGlobal,
+      title: 'Excellence in Global Business Promotions',
+      description: 'Dr. Purnima Voria receiving the Excellence in Global Business Promotions Award',
+      category: 'Awards & Honors'
+    },
+    {
+      id: 34,
+      src: drvFederationIndoAmericans,
+      title: 'Federation of Indo-Americans of Northern California',
+      description: 'Dr. Purnima Voria with the Federation of Indo-Americans of Northern California',
+      category: 'Awards & Honors'
+    },
+    {
+      id: 35,
+      src: drvGlobalPowerIndia,
+      title: 'Global Power India Award',
+      description: 'Dr. Purnima Voria receiving the Global Power India Award',
+      category: 'Awards & Honors'
+    },
+    {
+      id: 36,
+      src: drvGovernoAsiaPacific,
+      title: 'Governor\'s Asia Pacific American Advisory Council',
+      description: 'Dr. Purnima Voria at the Governor\'s Asia Pacific American Advisory Council',
+      category: 'Awards & Honors'
+    },
+    {
+      id: 37,
+      src: drvInternationalPowerIndiansCorp,
+      title: 'International Power Indians Awards - Corp News',
+      description: 'Dr. Purnima Voria featured in the International Power Indians Awards - Corp News',
+      category: 'Awards & Honors'
+    },
+    {
+      id: 38,
+      src: drvInternationalPowerIndiansNews,
+      title: 'International Power Indians Awards - Newspaper',
+      description: 'Dr. Purnima Voria featured in the International Power Indians Awards - Newspaper',
+      category: 'Awards & Honors'
+    },
+    {
+      id: 39,
+      src: drvKonarkWheel,
+      title: 'Konark Wheel, Orissa',
+      description: 'Dr. Purnima Voria with the Konark Wheel, Orissa',
+      category: 'Awards & Honors'
+    },
+    {
+      id: 40,
+      src: drvNGIExcellence,
+      title: 'NGI Excellence Award',
+      description: 'Dr. Purnima Voria receiving the NGI Excellence Award',
+      category: 'Awards & Honors'
+    },
+    {
+      id: 41,
+      src: drvNYSO,
+      title: 'NYSO Events',
+      description: 'Dr. Purnima Voria at NYSO events',
+      category: 'Awards & Honors'
+    },
+    {
+      id: 42,
+      src: drvPDBCanada,
+      title: 'PBD Canada 2011',
+      description: 'Dr. Purnima Voria at PBD Canada 2011',
+      category: 'Awards & Honors'
+    },
+    {
+      id: 43,
+      src: drvRotaryClub,
+      title: 'Rotary Club Jaipur South',
+      description: 'Dr. Purnima Voria with the Rotary Club of Jaipur South',
+      category: 'Awards & Honors'
+    },
+    {
+      id: 44,
+      src: drvRoundtableSeries,
+      title: 'Roundtable Series - The Offshore Institute',
+      description: 'Dr. Purnima Voria at the Roundtable Series - The Offshore Institute',
+      category: 'Awards & Honors'
+    },
+    {
+      id: 45,
+      src: drvSMSGWomen,
+      title: 'SMSG Women NYC Women\'s Leadership Conference',
+      description: 'Dr. Purnima Voria at the SMSG Women NYC Women\'s Leadership Conference',
+      category: 'Awards & Honors'
+    },
+    {
+      id: 46,
+      src: drvSpeakerIifaire,
+      title: 'Speaker at IIFAIRE',
+      description: 'Dr. Purnima Voria as a speaker at IIFAIRE',
+      category: 'Awards & Honors'
+    },
+    {
+      id: 47,
+      src: drvSpeakerReception,
+      title: 'Speaker at Reception for PM Modi in US',
+      description: 'Dr. Purnima Voria as a speaker at the reception for PM Modi in the US',
+      category: 'Awards & Honors'
+    },
+    {
+      id: 48,
+      src: drvSustainableSmartCities,
+      title: 'Sustainable Smart Cities India',
+      description: 'Dr. Purnima Voria at the Sustainable Smart Cities India conference',
+      category: 'Awards & Honors'
+    },
+    {
+      id: 49,
+      src: drvSymbolArts,
+      title: 'Symbol Arts - Sheriff\'s Office',
+      description: 'Dr. Purnima Voria with Symbol Arts - Sheriff\'s Office',
+      category: 'Awards & Honors'
+    },
+    {
+      id: 50,
+      src: drvTelephonyProvisioning,
+      title: 'Telephony Provisioning Operations',
+      description: 'Dr. Purnima Voria in Telephony Provisioning Operations',
+      category: 'Awards & Honors'
+    },
+    {
+      id: 51,
+      src: drvUNPlaque,
+      title: 'UN Plaque',
+      description: 'Dr. Purnima Voria with a UN Plaque',
+      category: 'Awards & Honors'
+    },
+    {
+      id: 52,
+      src: drvWomenOfChange,
+      title: 'Women of Change - Rani of Jhansi, India',
+      description: 'Dr. Purnima Voria as a Woman of Change - Rani of Jhansi, India',
+      category: 'Awards & Honors'
+    },
+    {
+      id: 53,
+      src: drvWWWConference,
+      title: 'WWW Conference',
+      description: 'Dr. Purnima Voria at the WWW Conference',
+      category: 'Awards & Honors'
     }
   ]
 
@@ -1033,7 +1604,7 @@ function App() {
 
           {/* Category Filter */}
           <div className="flex flex-wrap justify-center gap-4 mb-12">
-            {['All', 'United States', 'India', 'United Nations', 'World Leaders', 'Professional', 'Indian Conglomerates'].map((category) => (
+            {["All", 'United States', 'India', 'United Nations', 'World Leaders', 'Professional', 'Indian Conglomerates', 'Awards & Honors'].map((category) => (
               <button
                 key={category}
                 className="px-6 py-3 rounded-full bg-white border-2 border-navy/20 text-navy hover:bg-navy hover:text-white transition-all duration-300 font-body font-medium elegant-shadow hover-lift"
